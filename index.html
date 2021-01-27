@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#carousel-one').carousel();
+            $('#carousel-two').carousel();
+            $('#carousel-tree').carousel();
+        });
+    </script>
+    <title>Ivan Iliev</title>
+</head>
+
+<body>
+    <div class="navigation"></div>
+    <div class="carousel-full-width"></div>
+    <div class="jumbotron"></div>
+    <div class="welcome"></div>
+    <div class="tree-cols"></div>
+    <div class="two-cols"></div>
+    <div class="fixed-background"></div>
+    <div class="fixed-background"></div>
+    <div class="emoji"></div>
+    <div class="team"></div>
+    <div class="cards"></div>
+    <div class="testimonial"></div>
+    <div class="four-rows"></div>
+    <div class="footer"></div>
+    <script>
+        $(function() {
+            $(".navigation").load("sections/navigation.html");
+            $(".carousel-full-width").load("slider/carousel-full-width.html");
+            $(".jumbotron").load("sections/jumbotron.html");
+            $(".welcome").load("sections/welcome.html");
+            $(".tree-cols").load("sections/tree-cols.html");
+            $(".two-cols").load("sections/two-cols.html");
+            $(".fixed-background").load("sections/fixed-background.html");
+            $(".emoji").load("sections/emoji.html");
+            $(".team").load("sections/team.html");
+            $(".cards").load("sections/cards.html");
+            $(".testimonial").load("slider/testimonial.html");
+            $(".four-rows").load("sections/four-rows.html");
+            $(".footer").load("sections/footer.html");
+        })
+    </script>
+</body>
+
+
+</html>
